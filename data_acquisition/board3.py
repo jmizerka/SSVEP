@@ -9,7 +9,7 @@ class Board():
 
     def __init__(self, eeg_channels):
         parser = argparse.ArgumentParser()
-        parser.add_argument('--serial-port', type=str, help='serial port', required=False, default='/dev/ttyACM0')  #
+        parser.add_argument('--serial-port', type=str, help='serial port', required=False, default='COM4')  #
         parser.add_argument('--board-id', type=int, default=0)  # 1 for Ganglion, 0 for Cyton
         self.args = parser.parse_args()
         params = BrainFlowInputParams()
