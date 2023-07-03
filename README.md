@@ -11,7 +11,7 @@ The photo above shows a view of the interface with the stimuli. The Psychopy lib
 ## 3. EEG data acquisition
 <img src="Cyton.jpg" alt="Description" width="200" height="200" title="3D-printed EEG Ultracortex Mark III cap">
 
-To collect data and test the interface, I used an 8-channel Cyton amplifier from OpenBCI with a sampling rate of 250 Hz.   
+To collect data and test the interface, I used an 8-channel Cyton amplifier from OpenBCI [1] with a sampling rate of 250 Hz. EEG cap was 3D-printed according to the project by OpenBCI [2] with small modifications. 
 
 
 ![Drzewo projektu](drzewo.png)
@@ -24,4 +24,5 @@ To collect data and test the interface, I used an 8-channel Cyton amplifier from
 
 ## 4. Bibliography
 
-OpenBCI Cyton: https://docs.openbci.com/Cyton/CytonLanding
+[1] OpenBCI Cyton: https://docs.openbci.com/Cyton/
+[2] Ultracortex Mark II Nova Revised: https://github.com/OpenBCI/Ultracortex/tree/master/Mark_III_Nova_REVISED
