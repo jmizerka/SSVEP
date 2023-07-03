@@ -1,2 +1,2 @@
-# SSVEP
-\hline
+# SSVEP BASED BCI
+
