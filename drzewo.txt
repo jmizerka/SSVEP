@@ -1,0 +1,11 @@
+├── data_acquisition
+│   ├── board3.py
+│   ├── __init__.py
+│   
+├── __init__.py
+├── main.py
+└── ssvep_stimuli
+    ├── frequency_check.py
+    ├── __init__.py
+    └── speller.py
+
