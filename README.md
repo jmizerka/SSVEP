@@ -5,3 +5,5 @@ My main goal was to create a brain-computer interface based on steady-state visu
 
 ## 2. Stimulation interface
 <img src="stimuli.png" alt="Description" width="300" height="200" title="A view of the interface with stimuli">
+
+The photo above shows a view of the interface with the stimuli. The Psychopy library is responsible for the GUI and stimulus flashing controls. Signals controlling the blinking were generated using the scipy library. The stimuli were encoded using the so-called joint frequency, phase and waveform modulation method, which means that each stimulus flashes according to the values of the generated periodic functions, and individual stimuli are controlled by signals with different shapes, phase shifts, and frequencies. Such a method is intended to facilitate the recognition of stimuli when there are a lot of them and the frequency differences between them are small.
