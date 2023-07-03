@@ -19,13 +19,16 @@ To collect data and test the interface, I used an 8-channel Cyton amplifier from
 ## 4. Project structure
 ![Drzewo projektu](drzewo.png)
 
+The data_acquisition package contains a module responsible for communicating with the OpenBCI device using the brainflow library [3] and filtering and saving data.
 
+The ssvep_stimuli package contains speller.py module which implements stimulation matrix and is responsible for flickering stimuli and precise timing.
 
+In the main.py file multiprocessing is implemented to ensure proper synchronization between the EEG device and the program responsible for stimulation. 
 
-
-
-## 4. Bibliography
+## 5. Resources
 
 [1] OpenBCI Cyton: https://docs.openbci.com/Cyton/
 
 [2] Ultracortex Mark II Nova Revised: https://github.com/OpenBCI/Ultracortex/tree/master/Mark_III_Nova_REVISED
+
+[3] Brainflow: https://brainflow.org/
