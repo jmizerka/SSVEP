@@ -5,3 +5,4 @@ My main goal was to create a brain-computer interface based on steady-state visu
 
 ## 2. Stimulation interface
 
+![Tekst alternatywny](cap.png)
