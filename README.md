@@ -13,11 +13,13 @@ The photo above shows a view of the interface with the stimuli. The Psychopy lib
 
 To collect data and test the interface, I used an 8-channel Cyton amplifier from OpenBCI [1] with a sampling rate of 250 Hz. EEG cap was 3D-printed according to the project by OpenBCI [2] with small modifications. The cap uses gel-free electrodes which significantly reduces testing preparation time.
 
+<img src="cap.png" alt="Description" width="200" height="300" title="3D-printed EEG Ultracortex Mark III cap">
 
+
+## 4. Project structure
 ![Drzewo projektu](drzewo.png)
 
 
-<img src="cap.jpg" alt="Description" width="200" height="300" title="3D-printed EEG Ultracortex Mark III cap">
 
 
 
